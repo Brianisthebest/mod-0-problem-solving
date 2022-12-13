@@ -11,3 +11,7 @@ travel_locations.sort.each do |travel_location|
 end
 
 # I could add an ! at the end of sort to change our original array too
+
+travel_locations.sort.each {|travel_location| p "I can't wait to travel to #{travel_location}!"}
+
+# Okay, so we can use {} as our do and end statement! This will be fun to work with.
