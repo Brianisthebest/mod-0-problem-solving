@@ -7,9 +7,7 @@ sentence = "i can't wait to see if i can do this!"
 
 words = sentence.split
 
-capital_words =  words.each do |word|
-    word.capitalize!
-end
+capital_words =  words.each { |word| word.capitalize! }
 
 p capital_words.join(" ")
 
