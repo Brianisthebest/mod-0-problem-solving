@@ -6,7 +6,8 @@
 
 travel_locations = ["Japan", "England", "Maine", "Italy"]
 
-travel_locations.sort!
-travel_locations.each do |travel_location|
+travel_locations.sort.each do |travel_location|
     p "I can't wait to travel to #{travel_location}!"
 end
+
+# I could add an ! at the end of sort to change our original array too
